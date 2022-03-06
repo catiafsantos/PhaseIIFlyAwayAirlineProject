@@ -31,6 +31,13 @@ public class Login {
         this.role = role;
     }
 
+    public Login(String email, String password, String role) {
+        super();
+        this.email = email;
+        this.password = password;
+        this.role = role;
+    }
+
     public int getUid() {
         return uid;
     }
